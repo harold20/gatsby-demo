@@ -21,7 +21,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Helmet
-          title={data.site.siteMetadata.title}
+          title={'Mundo Informativo CR'}
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={"Mundo Informativo CR"} />
         <div
           style={{
             margin: '0 auto',
@@ -40,7 +40,7 @@ const Layout = ({ children }) => (
         >
           {children}
         </div>
-        <Footer />
+        <Footer siteTitle={""}/>
       </>
     )}
   />

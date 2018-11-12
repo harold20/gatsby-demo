@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-            Mundo Informativo CR
+            {siteTitle}
         </Link>
       </h1>
     </div>
