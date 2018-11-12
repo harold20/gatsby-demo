@@ -7,10 +7,10 @@ const IndexPage = () => (
   <Layout>
     <h1>JUZGADO DECLARA ILEGAL HUELGA EN EL MEP</h1>
       <h3>Sindicatos condenados a pagar ¢6 millones por costas;
-          Ministerio llama a funcionarios a retomar labores para reactivar curso lectivo</h3>
-      <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
-    </div>
+          Ministerio llama a funcionarios a retomar labores para reactivar curso lectivo.</h3>
+      <div style={{ marginBottom: '1.45rem' }}>
+          <Image />
+      </div>
       <p>Luego de 64 días de huelga, se declara ilegal la huelga del MEP, este viernes 16 de noviembre el juzgado dio su declaratoria; se condena al Sindicato de Educadores Costarricenses (SEC), Asociación Nacional de Educadores (ANDE), y Asociación de Profesores de Segunda Enseñanza (APSE) al pago de ¢1 millón por costas procesales y ¢5 millones por costas personales (pago de abogados).</p>
       <p>Y es que no es casualidad que se condene este tipo de acciones aún fuera de nuestra legislación, dado que si bien es cierto las manifestaciones son la expresión viva del movimiento de huelga, estas no deben sobrepasar los límites de racionalidad y proporcionalidad del actuar de cualquier gremio.</p>
       <p>Luego de darse a conocer la declaratoria de ilegalidad, las autoridades educativas llamaron a los funcionarios a retomar a labores.</p>
