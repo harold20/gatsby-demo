@@ -17,7 +17,7 @@ import {
     LinkedinIcon,
     EmailIcon,
 } from 'react-share';
-const shareUrl = window.location.origin;
+const shareUrl = 'https://mundoinformativocr.ga/';
 const title = 'Mundo Informativo CR';
 
 const ShareSocialMedia = ({ iconSize, round}) => (

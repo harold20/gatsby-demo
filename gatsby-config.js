@@ -19,8 +19,8 @@ module.exports = {
         name: 'gatsby-starter-default',
         short_name: 'starter',
         start_url: '/juzgado-declara-ilegal-huelga-en-el-mep',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#EF7F1A',
+        theme_color: '#EF7F1A',
         display: 'minimal-ui',
         icon: 'src/images/icon.png', // This path is relative to the root of the site.
       },
