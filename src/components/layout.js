@@ -23,7 +23,7 @@ const Layout = ({ children }) => (
           title={'JUZGADO DECLARA ILEGAL HUELGA EN EL MEP'}
           meta={[
             { name: 'description', content: 'JUZGADO DECLARA ILEGAL HUELGA EN EL MEP' },
-            { name: 'keywords', content: 'JUZGADO DECLARA ILEGAL HUELGA EN EL MEP' },
+            { name: 'keywords', content: 'Sindicatos condenados a pagar ¢6 millones por costas; Ministerio llama a funcionarios a retomar labores para reactivar curso lectivo.' },
           ]}
         >
           <html lang="en" />
