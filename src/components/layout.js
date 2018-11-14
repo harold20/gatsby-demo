@@ -23,8 +23,8 @@ const Layout = ({ children }) => (
         <Helmet
           title={'Mundo Informativo CR'}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Mundo Informativo CR' },
+            { name: 'keywords', content: 'Mundo Informativo CR' },
           ]}
         >
           <html lang="en" />

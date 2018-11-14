@@ -625,3 +625,13 @@ pre tt:after {
 p {
   text-align: justify;
 }
+.search{
+  float: right;
+}
+
+.social-media{
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  padding-bottom: 20px;
+}

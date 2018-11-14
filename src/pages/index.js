@@ -1,4 +1,5 @@
 import React from 'react'
+import SocialMedia from '../components/shareSocialMedia'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
@@ -8,6 +9,7 @@ const IndexPage = () => (
     <h1>JUZGADO DECLARA ILEGAL HUELGA EN EL MEP</h1>
       <h3>Sindicatos condenados a pagar ¢6 millones por costas;
           Ministerio llama a funcionarios a retomar labores para reactivar curso lectivo.</h3>
+      <SocialMedia iconSize={42} round={true}/>
       <div style={{ marginBottom: '1.45rem' }}>
           <Image />
       </div>
@@ -17,6 +19,7 @@ const IndexPage = () => (
       <p>“Desde el MEP llamamos a todo el personal docente, administrativo, conserjes, cocineras y guardas a retomar sus labores de forma inmediata para reactivar el curso lectivo 2018”, dijo el Ministerio de Educación esta mañana mediante redes sociales.</p>
       <p>En total fueron 32 las peticiones de declaratoria de ilegalidad que hicieron las instituciones públicas desde el inicio del movimiento. Hasta la fecha, 19 han sido declaradas ilegales, incluyendo la del MEP, dos más fueron calificadas como legales.</p>
       <p>Las consecuencias desastrosas de esta huelga ilegal e injustificada han dejado, al menos 79.000 niños y adolescentes han dejado de recibir alimentación por el cierre de comedores escolares.</p>
+      <SocialMedia iconSize={32} round={false}/>
   </Layout>
 )
 

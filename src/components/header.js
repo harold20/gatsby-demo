@@ -1,11 +1,16 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import  Input from 'antd/lib/input';
+import 'antd/lib/input/style/index.css';
+
+const Search = Input.Search;
 
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: '#00456E',
       marginBottom: '1.45rem',
+      height: '150px'
     }}
   >
     <div
@@ -26,6 +31,12 @@ const Header = ({ siteTitle }) => (
             {siteTitle}
         </Link>
       </h1>
+        <div className="search">
+            <Search
+                onSearch={value => console.log(value)}
+                style={{ width: 200 }}
+            />
+        </div>
     </div>
   </div>
 )
