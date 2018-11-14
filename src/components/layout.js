@@ -20,10 +20,10 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Helmet
-          title={'Mundo Informativo CR'}
+          title={'JUZGADO DECLARA ILEGAL HUELGA EN EL MEP'}
           meta={[
             { name: 'description', content: 'JUZGADO DECLARA ILEGAL HUELGA EN EL MEP' },
-            { name: 'keywords', content: 'Mundo Informativo CR' },
+            { name: 'keywords', content: 'JUZGADO DECLARA ILEGAL HUELGA EN EL MEP' },
           ]}
         >
           <html lang="en" />
