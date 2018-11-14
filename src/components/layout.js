@@ -22,7 +22,7 @@ const Layout = ({ children }) => (
         <Helmet
           title={'Mundo Informativo CR'}
           meta={[
-            { name: 'description', content: 'Mundo Informativo CR' },
+            { name: 'description', content: 'JUZGADO DECLARA ILEGAL HUELGA EN EL MEP' },
             { name: 'keywords', content: 'Mundo Informativo CR' },
           ]}
         >
