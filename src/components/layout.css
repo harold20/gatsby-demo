@@ -635,3 +635,13 @@ p {
   width: 35%;
   padding-bottom: 20px;
 }
+
+.date-publication{
+  display: flex;
+}
+.date-publication p {
+  margin-left: 5px;
+}
+.anticon-user{
+  margin-left: 10px;
+}

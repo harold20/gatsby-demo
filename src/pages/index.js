@@ -1,5 +1,7 @@
 import React from 'react'
 import SocialMedia from '../components/shareSocialMedia'
+import  Icon from 'antd/lib/icon';
+import 'antd/lib/icon/style/index.css';
 
 import Layout from '../components/layout'
 import Image from '../components/image'
@@ -9,6 +11,10 @@ const IndexPage = () => (
     <h1>JUZGADO DECLARA ILEGAL HUELGA EN EL MEP</h1>
       <h3>Sindicatos condenados a pagar ¢6 millones por costas;
           Ministerio llama a funcionarios a retomar labores para reactivar curso lectivo.</h3>
+      <div className="date-publication">
+          <Icon type="clock-circle" theme="twoTone" /> <p>Noviembre 15, 2018</p>
+          <Icon type="user" /> <p>Veronica Salas</p>
+      </div>
       <SocialMedia iconSize={42} round={true}/>
       <div style={{ marginBottom: '1.45rem' }}>
           <Image />
